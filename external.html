@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Navigation Menu Example</title>
+
+<style>
+
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    display: block;   }
+
+nav{
+    background-color: #555;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;  }
+
+nav ul li a{
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.left-box{
+    float: left;
+    width: 45%;
+    background: lightblue;
+    padding: 20px;
+}
+
+.right-box{
+    float: right;
+    width: 45%;
+    background: lightgreen;
+    padding: 20px;
+}
+
+.clearfix{
+    clear: both;   }
+
+span{
+    display: inline;
+    color: red;
+    font-weight: bold;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Website</h1>
+</header>
+
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+
+<div class="left-box">
+    <h2>Left Content</h2>
+    <p>floated left.</p>
+</div>
+
+<div class="right-box">
+    <h2>Right Content</h2>
+    <p>floated right.</p>
+</div>
+
+
+<div class="clearfix"></div>
+
+
+
+
+<footer>
+    <p> Navigation Menu Demo</p>
+</footer>
+
+</body>
+</html>
